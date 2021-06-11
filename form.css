@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>welcome</title>
+    <style media="screen">
+      ,form-container{
+        min-hight:100vh;
+        width:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        backkground:url(bg-back.jpg)no-repeat;
+        background-size:cover;
+        background-position:center;
+        perpective:1000px;
+      }
+
+      .form-container form{
+        hight:450px;
+        width:350px;
+        background:rgba(255,255,255,1);
+        text-align:center;
+        align-items:center;
+        border-radius:5px;
+        box-shadow:0 5px 15px rgba(0,0,.3);
+        border-top: 1px solid rgba(255,255,255,.3);
+        border-left: 1px solid rgba(255,255,255,.3);
+        backdrop-filter:blur(10px);
+        transform-style:preserve-3d;
+      }
+      .form-container form input{
+        outline;
+        border:none;
+        height:40px;
+        width:82%;
+        background: rgba(0,0,0,1);
+        color:rgba(255,255,255,.7);
+        box-shadow 0 0 5px rgba(0,0,0,.5)inset;
+        font-size:17px;
+        padding:0 10px;
+        margin:15px 0;
+        leter-spacing:1px;
+        border-radius:15px;
+      }
+      .form-container form h3{
+        font-size:30px;
+        padding:30px 0;
+        color:#ccc;
+        letter-spacing:3px;
+      }
+      .form-container form i{
+        padding: 0.5px;
+        font-size:20px;
+        color:#bbb;
+      }
+      .form-container form inputtype="submit"]
+      {
+        width:90%;
+        cursor:pointer;
+        background:linear-gradient(90deg,deeppink,blueviolet);
+        margin-top:30px;
+        border=radius:50px;
+      }
+      .form-container form inputtype="submit"]:hover{
+        letter-spacing:4px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="">
+      <form class="" action="" id="form">
+        <h3>login</h3>
+        <class class="container">
+          <span class="icon">
+            <i class="fasfa-user"></i></span>
+          <input type="text" placeholder="username"/>
+          <div class="container">
+            <span class="icon"><<i class="fasfa-at"></i></span>
+          <input type="email" placeholder="email"/>
+          <span class="icon"><<i class="fasfa-lock"></i></span>
+          <input type="password" placeholder="password"/>
+          </div>
+        <input type="submit" name="" value="login">
+      </form>
+  </body>
+</html>

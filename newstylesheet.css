@@ -1,0 +1,22 @@
+ul {
+  background-color: black;
+  padding: 20px;
+}
+li {
+  display: inline;
+  background-color: green;
+  padding: 15px;
+  color:white;
+}
+li:hover{
+  background-color: grey;
+}
+/* div {
+  color: white;
+
+} */
+
+li:link {color: blue;}
+li:visited {color: purple;}
+li:hover {color: pink;}
+li:active {color: yellow;}
